@@ -1,0 +1,116 @@
+.contenedor-iconos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 50px;
+
+}
+
+.box1, .box2, .box3{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+
+.box1::before{
+    position: absolute;
+    content: '';
+    inset: 0px 0px;
+    background: linear-gradient(360deg,rgb(6, 0, 71),rgb(255, 163, 253), rgb(255, 255, 255), rgb(255, 163, 253), rgb(6, 0, 71));
+    transition: 0.5s;
+    animation: animate 2.5s linear infinite;
+
+}
+
+.box2::before{
+    position: absolute;
+    content: '';
+    inset: 0px 0px;
+    background: linear-gradient(360deg,rgb(6, 0, 71),rgb(255, 163, 253), rgb(255, 255, 255), rgb(255, 163, 253), rgb(6, 0, 71));
+    transition: 0.5s;
+    animation: animate 2.5s linear infinite;
+
+}
+.box3::before{
+    position: absolute;
+    content: '';
+    inset: 0px 0px;
+    background: linear-gradient(360deg,rgb(6, 0, 71),rgb(255, 163, 253), rgb(255, 255, 255), rgb(255, 163, 253), rgb(6, 0, 71));
+    transition: 0.5s;
+    animation: animate 2.5s linear infinite;
+
+}
+
+.box1::after{
+    content: '';
+    inset: 2px 2px;
+    position: absolute;
+    background: rgba(0, 0, 0);
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.box2::after{
+    content: '';
+    inset: 2px 2px;
+    position: absolute;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.box3::after{
+    content: '';
+    position: absolute;
+    inset: 2px 2px;
+    background: rgba(0, 0, 0);
+    border-radius: 50%;
+    z-index: 1;
+
+}
+
+.content1, .content2, .content3{
+    position: absolute;
+    inset: 2px 2px;
+    border: 3px solid #8327a500;
+    z-index: 3;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+
+
+.p{
+    font-size: 1em;
+    text-decoration: underline;
+    margin: 0;
+    padding: 5px;
+    text-align: center
+}
+
+.icono-ig{
+    position: absolute;
+    object-fit: cover;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: rgb(170, 104, 255);
+}
+
+.icono-git{
+    position: absolute;
+    object-fit: cover;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: rgb(240, 248, 255);
+}
+
+.icono-gmail{
+    position: absolute;
+    object-fit: cover;
+    margin-top: 10%;
+    margin-left: 10%;
+    color: rgb(202, 63, 63);
+}

@@ -1,0 +1,7 @@
+body{
+    background-color: rgba(41, 21, 54, 0.781) ;
+    border-radius: 50px;
+    margin: 4rem;
+    box-sizing: border-box;
+    box-shadow: rgb(255, 255, 255) 0px 0px 40px;
+}
