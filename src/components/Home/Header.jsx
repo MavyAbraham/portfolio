@@ -1,27 +1,27 @@
 import React from 'react'
-import Perfil from '../../assets/multimedia/Perfil3.jpg'
-import Css from '../../css/Header.css'
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import Button from 'react-bootstrap/Button';
+
 
 
 const Header = () => {
   return (
     <>
+    <Navbar bg="dark" variant="dark">
+        <Container>
+          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Nav className="me-auto">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#features">Features</Nav.Link>
+            <Nav.Link href="#pricing">Pricing</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
 
-        <div className='contenedor'>
-            <div className='contenedor2'>
-            <h4 className='welcome'>Welcome to</h4>
-            <h1  className='titulo'>Maria Victoria Abraham</h1> 
-            <h4 className='s'>'s portfolio</h4>
-            </div>
-            
-            <div className='box'>
-              <div className='content'>
-                <img src={Perfil} alt="" />
-              </div>
-            </div>
-        </div> 
-
-
+      <hr />
+     
     </>
   )
 }
