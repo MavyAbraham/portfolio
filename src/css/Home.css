@@ -1,8 +1,7 @@
 body{
-    background-color: rgba(41, 21, 54, 0.781) ;
-    border-radius: 50px;
-    margin: 4rem;
+    background-color: rgba(78, 38, 105, 0.603) ;
     box-sizing: border-box;
-    box-shadow: rgb(255, 255, 255) 0px 0px 40px;
+    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 20px inset;
+    border-radius: 50px;
     
 }

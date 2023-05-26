@@ -1,13 +1,11 @@
 #root {
-  margin: 2rem;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  /* font-synthesis: none;
+  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%; */
-  
-
+  -webkit-text-size-adjust: 100%;
+  color: white;
 }
  
 
