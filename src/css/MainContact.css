@@ -11,7 +11,7 @@
 } 
 
 
-.consulta{
+#dark .consulta{
     background-color: rgba(82, 5, 126, 0.753);
     padding: 30px;
     margin-left: 10%;
@@ -20,7 +20,7 @@
     width: 30%;
 }
 
-.form{
+#dark .form{
     background: none;
     border: none;
     border-bottom: 3px solid rgb(185, 80, 255);
@@ -28,7 +28,7 @@
 }
 
 
-.container{
+#dark .container{
 
     color: white;
     width: fit-content;
@@ -36,3 +36,35 @@
 
 
 }
+
+
+#light .consulta{
+    background-color: rgb(24, 116, 62);
+    padding: 30px;
+    margin-left: 10%;
+    border: 3px solid rgb(80, 255, 147);
+    border-radius: 10px;
+    width: 30%;
+}
+
+#light .form {
+    background: none;
+    border: none;
+    border-bottom: 3px solid rgb(80, 255, 147);
+    color: rgb(255, 255, 255);
+}
+
+
+#light .container{
+
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    height: fit-content;
+
+
+}
+
+
+
+
+

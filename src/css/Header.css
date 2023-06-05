@@ -1,4 +1,9 @@
-.navBar{
+#dark .navBar{
     background-color: rgba(140, 42, 206, 0.411) ;
     border-radius:50px 50px 0px 0px ;
+}
+
+#light .navBar{
+    background-color: rgb(23, 131, 95);
+    border-radius: 50px 50px 0px 0px;
 }

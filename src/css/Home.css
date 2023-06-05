@@ -1,7 +1,27 @@
-body{
+.contenedor1{
+    padding: 20px;
+}
+
+#dark .contenedor1{
+    background: linear-gradient(0deg, rgba(201,92,233,1) 0%, rgba(255,225,164,1) 0%, rgba(233,93,75,1) 0%, rgba(209,123,112,1) 25%, rgba(48,0,75,1) 67%, rgba(28,0,51,1) 100%);
+}
+
+#dark .conteiner{
     background-color: rgba(78, 38, 105, 0.603) ;
     box-sizing: border-box;
     box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 20px inset;
+    border-radius: 50px;
+    
+}
+
+
+#light .contenedor1{
+    background: linear-gradient(0deg, rgba(201,92,233,1) 0%, rgba(255,225,164,1) 0%, rgba(255,200,243,1) 33%, rgba(202,216,247,1) 66%, rgba(144,253,255,1) 86%, rgba(30,218,221,1) 100%); 
+}
+#light .conteiner{
+    background-color: rgba(234, 203, 255, 0.603) ;
+    box-sizing: border-box;
+    box-shadow: rgba(136, 52, 52, 0.623) 0px 0px 20px inset;
     border-radius: 50px;
     
 }

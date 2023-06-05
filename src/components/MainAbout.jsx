@@ -1,43 +1,69 @@
 import React from 'react'
 import "../css/MainAbout.css"
-import Perfil from '../assets/multimedia/Perfil3.jpg'
+import { useState } from 'react'
 
 
 const MainAbout = () => {
+
+  const [num, setnum] = useState(1);
+  const sumNum = () => {
+    if (num>=3){
+      setnum(1)
+    } else{
+      setnum(num + 1);
+    }
+  }
+
+
+
+
   return (
     <>
-     <div className='contenedor'>
-        <div className='contenedor2'>
-           <h4 className='welcome'>Welcome to</h4>
-           <h1 className='titulo'>Maria Victoria Abraham</h1>
-           <h4 className='s'>'s portfolio</h4>
-         </div>
+    <div className='contenedor-MainAbout'>
+      <div className='contenedorFotos'>
 
-         <div className='box'>
-           <div className='content'>
-             <img src={Perfil} alt="" />
-           </div>
-         </div>
-       </div>
+        <div className='contenedor-img'>
+          <img src={`${num}.jpg`} className='img'/>
+        </div>
 
+      <br />
 
-       <hr />
-       <div className='contenedor'>
-         <div className='contenedor-descripcion'>
-           <div className='descripcion'>
+        <div className='contenedor-boton'>
+         <button onClick={sumNum} className='boton'>{num}</button>
+        </div>
 
-             <p>¡Hola! Soy Maria Victoria (Mavy) Abraham y soy estudiante de programación en la Universidad Tecnológica Nacional FRT. Actualmente tengo 20 años y mi objetivo es convertirme en una desarrolladora web exitosa.</p>
+      </div>
+     
 
-            <p>Si bien mis conocimientos en bases de datos como SQL son básicos, me he enfocado en aprender y mejorar en áreas como C#, HTML, CSS, JavaScript y ReactJS. Me apasiona el aspecto visual del desarrollo web, especialmente cómo los usuarios interactúan con los sitios y las aplicaciones. Mi objetivo es crear experiencias en línea atractivas e intuitivas que los usuarios adoren.</p>
+      <div className='contenedorDatos'>
+        <h3>Estudios realizados</h3>
+        <ul>
+          <li> Colegio Secundario Gral. Don Jose de San Martin (Promocion 2019)</li>
+          <li> Tecnico Universitario en Programacion. Universidad Tecnologica Nacional FRT (2022-cursando ultimo año) </li>
+        </ul>
 
-             <p>Estoy comprometida a aprender y mejorar constantemente mis habilidades de programación para poder ofrecer soluciones innovadoras y efectivas. Me encanta trabajar en equipo y estoy emocionada por la posibilidad de colaborar en futuros proyectos.</p>
+        <h3>Idiomas</h3>
+          <ul>
+            <li>Ingles (estudios particulares)</li>
+          </ul>
 
-            <p>¡Gracias por visitar mi portfolio y espero tener la oportunidad de trabajar contigo!</p>
-
-           </div>
-       </div>
-         
-       </div>
+        <h3> Habilidades </h3>
+          <h6> SOFT </h6>
+          <ul>
+            <li>Autodidacta</li>
+            <li>Trabajo en equipo</li>
+            <li>Gestion del Tiempo</li>
+          </ul>
+          <h6> HARD </h6>
+          <ul>
+            <li>Javascript </li>
+            <li>HTML </li>
+            <li>CSS</li>
+            <li>React JS</li>
+            <li>C#</li>
+          </ul>
+      </div>
+      </div>
     </>
   )
 }

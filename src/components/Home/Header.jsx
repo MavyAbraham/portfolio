@@ -11,7 +11,7 @@ const Header = () => {
 
     <Navbar variant="dark" className='navBar' >
         <Container>
-          <Navbar.Brand href="#home">Mavy</Navbar.Brand>
+          <Navbar.Brand href="/">Mavy</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>

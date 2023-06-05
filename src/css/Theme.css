@@ -1,0 +1,44 @@
+.contenedor1{
+    padding: 20px;
+}
+
+#light .boton-theme{
+    color: antiquewhite;
+    background-color: rgb(13, 94, 56);
+    border: aquamarine 3px solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#dark .boton-theme{
+    color: antiquewhite;
+    background-color: rgb(62, 13, 94);
+    border: rgb(142, 66, 241) 3px solid;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#dark .contenedor1{
+    background: linear-gradient(0deg, rgba(201,92,233,1) 0%, rgba(255,225,164,1) 0%, rgba(233,93,75,1) 0%, rgba(209,123,112,1) 25%, rgba(48,0,75,1) 67%, rgba(28,0,51,1) 100%);
+}
+
+#dark .conteiner{
+    background-color: rgba(78, 38, 105, 0.603) ;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.623) 0px 0px 20px inset;
+    border-radius: 50px;
+    
+}
+
+
+#light .contenedor1{ 
+    background: linear-gradient(0deg, rgba(201,92,233,1) 0%, rgba(255,225,164,1) 0%, rgba(233,93,75,1) 0%, rgba(255,171,205,1) 48%, rgba(148,227,255,1) 79%, rgba(27,151,152,1) 100%);
+}
+
+#light .conteiner{
+    background-color: rgba(69, 148, 118, 0.425) ;
+    box-sizing: border-box;
+    box-shadow: rgba(202, 233, 211, 0.623) 0px 0px 80px inset;
+    border-radius: 50px;
+    
+}
